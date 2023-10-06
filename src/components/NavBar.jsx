@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaBars, FaTimes } from "react-icons/fa"
+import { FaBars, FaTimes, FaLaptopCode } from "react-icons/fa"
 import { useState } from 'react';
 import { Link } from 'react-scroll'
 
@@ -32,8 +32,8 @@ const NavBar = () => {
 
   return (
     <div className='flex justify-between items-center w-full h-20 px-4 bg-[#14FECC] text-white dark:text-white dark:bg-[#000000] fixed top-0'>
-        <div>
-            <h1 className='text-5xl font-signture ml-2'>Jose</h1>
+        <div className='group'>
+            <a href="https://github.com/JoseMDO"><FaLaptopCode size={25} className='ml-4 text-black dark:text-white group-hover:animate-bounce'/></a>
         </div>
 
         <ul className='hidden md:flex'>
