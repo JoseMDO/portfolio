@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
+const plugin = require('tailwindcss/plugin')
+
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
@@ -8,11 +11,11 @@ module.exports = {
     fontFamily: {
       signture: ["Great Vibes"],
     },
-    transitionProperty: {
-      'height': 'height',
-      'spacing': 'margin, padding',
-    }
   },
-  plugins: [],
+  plugins: [
+      plugin(function({ addVariant }) {
+      addVariant('hocus', ['&:hover', '&:focus'])
+    })
+  ],
 }
 

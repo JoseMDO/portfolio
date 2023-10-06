@@ -28,7 +28,7 @@ const Portfolio = () => {
 
 
   return (
-    <div name="portfolio" className='bg-gradient-to-b from-[#14FECC] to-[#A0FFE3] dark:from-black dark:to-[#323232] dark:text-white md:h-screen'>
+    <div name="projects" className='bg-gradient-to-b from-[#14FECC] to-[#A0FFE3] dark:from-black dark:to-[#323232] dark:text-white md:h-screen'>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-black dark:border-[#14FECC]'>Projects</p>

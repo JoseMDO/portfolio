@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from '../assets/jose.jpg'
 import { LuArrowRightCircle } from 'react-icons/lu'
+import { Link } from 'react-scroll'
+
 
 const Home = () => {
   return (
@@ -14,9 +16,9 @@ const Home = () => {
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 </p>
                 <div>
-                    <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-[#4b4949] to-[#b0b0b0] dark:from-[#14FFEC] dark:to-[#A0FFE3] dark:text-black cursor-pointer'>
-                        Projects <span className='group-hover:rotate-90 group-hover:-translate-y-1 duration-300'><LuArrowRightCircle size={25} className='ml-3'/></span>
-                    </button>
+                    <Link to="projects" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-[#4b4949] to-[#b0b0b0] dark:from-[#14FFEC] dark:to-[#A0FFE3] dark:text-black cursor-pointer'>
+                        Projects<span className='group-hover:rotate-90 group-hover:-translate-y-1 duration-300'><LuArrowRightCircle size={25} className='ml-3'/></span>
+                    </Link>
                 </div>
             </div>
 

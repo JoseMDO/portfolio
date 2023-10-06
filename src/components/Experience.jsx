@@ -64,19 +64,19 @@ const Experience = () => {
 
 
   return (
-    <div name="experience" className='bg-gradient-to-b from-[#14FECC] to-[#A0FFE3] dark:from-[#323232] dark:to-[black] w-full h-screen'>
+    <div name="experience" className='bg-gradient-to-b from-[#A0FFE3] to-[#14FECC] dark:from-[#323232] dark:to-[black] w-full h-screen'>
         <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
             <div>
-                <p className='text-4xl font-bold border-b-4 border-[#14FECC] inline p-2 '>Experience</p>
-                <p className='py-6'>These are some of the Technologies that I have had some experience with</p>
+                <p className='text-4xl font-bold border-b-4 border-black dark:border-[#14FECC] dark:text-white inline p-2 text-black'>Experience</p>
+                <p className='py-6 text-black dark:text-white'>These are some of the Technologies that I have had some experience with</p>
             </div>
 
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
                 {
                     techs.map(({id, tech, src, style}) => (
-                        <div key={id} className={`shadow-md hover:scale-110 duration-500 py-2 rounded-lg ${style}`}>
+                        <div key={id} className={`shadow-lg hover:scale-110 duration-500 py-2 rounded-lg ${style}`}>
                             <img src={src} alt="" className='w-20 mx-auto' />
-                            <p>{tech}</p>
+                            <p className='text-black dark:text-white'>{tech}</p>
                         </div>  
                     ))
                 }
