@@ -15,7 +15,7 @@ const Home = () => {
                 </p>
                 <div>
                     <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-[#4b4949] to-[#b0b0b0] dark:from-[#14FFEC] dark:to-[#A0FFE3] dark:text-black cursor-pointer'>
-                        Portfolio <span className='group-hover:rotate-90 duration-300'><LuArrowRightCircle size={25} className='ml-2'/></span>
+                        Projects <span className='group-hover:rotate-90 group-hover:-translate-y-1 duration-300'><LuArrowRightCircle size={25} className='ml-3'/></span>
                     </button>
                 </div>
             </div>
