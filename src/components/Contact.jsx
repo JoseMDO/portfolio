@@ -25,7 +25,7 @@ const Contact = () => {
       };
 
   return (
-    <div name="contact" className='w-full h-screen bg-gradient-to-b from-[#14FECC] to-[#A0FFE3] dark:from-black dark:to-[#323232] p-4 text-white '>
+    <div name="contact" className='w-full h-screen bg-gradient-to-b from-[#ffffff] via-white to-[#A0FFE3] dark:from-black dark:to-[#323232] p-4 text-white '>
         <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full'>
             <div className='pb-8'>
                 <p className='text-4xl text-black font-bold inline border-b-4 border-gray-500 dark:border-[#14FECC] dark:text-white'>Contact</p>

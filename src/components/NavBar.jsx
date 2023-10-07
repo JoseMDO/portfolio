@@ -31,7 +31,7 @@ const NavBar = () => {
     ];
 
   return (
-    <div className='flex justify-between items-center w-full h-20 px-4 bg-[#14FECC] text-white dark:text-white dark:bg-[#000000] fixed top-0'>
+    <div className='flex justify-between items-center w-full h-20 px-4 bg-[#ffffff] text-white dark:text-white dark:bg-[#000000] fixed top-0'>
         <div className='group'>
             <a href="https://github.com/JoseMDO"><FaLaptopCode size={25} className='ml-4 text-black dark:text-white group-hover:animate-bounce'/></a>
         </div>
@@ -49,7 +49,7 @@ const NavBar = () => {
         </div>
 
         {nav && (
-            <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen text-black bg-gradient-to-b from-[#14FECC] to-[#A0FFE3] dark:from-[#000000] dark:to-[#323232] dark:text-[#ffffff]'>
+            <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen text-black bg-gradient-to-b from-[#ffffff] to-[#A0FFE3] dark:from-[#000000] dark:to-[#323232] dark:text-[#ffffff]'>
                 {links.map(({id, link}) => (
                     <li key={id} className='px-4 cursor-pointer capitalize py-6 text-4xl'>
                         <Link onClick={() => setNav(!nav)} to={link} smooth duration={500}>{link}</Link>
