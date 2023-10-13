@@ -41,15 +41,15 @@ const Portfolio = () => {
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
                 {
                 projects.map(({ id, src, demo, code, name }) => (
-                    <div>
-                        <div key={id} className='group shadow-lg shadow-black dark:shadow-[#14FECC] rounded-lg text-white hover:bg-gradient-to-t from-[#5a5a5a] to-[#323232] hover:scale-110 dark:from-[#14FECC] dark:to[#A0FFE3] overflow-hidden duration-300'>
+                    <div key={id}>
+                        <div className='group shadow-lg shadow-black dark:shadow-[#14FECC] rounded-lg text-white hover:bg-gradient-to-t from-[#5a5a5a] to-[#323232] hover:scale-110 dark:from-[#14FECC] dark:to[#A0FFE3] overflow-hidden duration-300'>
                             <img src={src} alt="" className='rounded-md duration-300 group-hover:scale-110 group-hover:opacity-25'/>
                             <div className='top-1/4 right-10 absolute hidden duration-300 group-hover:flex items-center justify-center'>
                                 <a href={demo} target="_blank" rel="noreferrer" className='px-6 py-3 m-4 duration-200 hover:scale-110'>Demo</a>
                                 <a href={code} target='_blank' rel='noreferrer' className='px-6 py-3 m-4 duration-200 hover:scale-110'>Code</a>
                             </div>
                         </div>
-                        <h1 className='text-2xl  flex justify-center align-middle mt-10'>{name}</h1>
+                            <h1 className='text-2xl  flex justify-center align-middle mt-10'>{name}</h1>
                     </div>                 
                     ))
                 }
