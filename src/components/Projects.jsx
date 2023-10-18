@@ -1,6 +1,6 @@
 import React from 'react'
 import quizMaster from '../assets/portfolio/quiz-3.png'
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
+import arrayDestruct from '../assets/portfolio/soccer-standing-2.jpg'
 import mapMania from '../assets/portfolio/maps.avif'
 
 const Portfolio = () => {
@@ -9,16 +9,16 @@ const Portfolio = () => {
         {
             id:1,
             src: quizMaster,
-            demo: 'https://proud-hill-042b4e210.3.azurestaticapps.net/',
-            code: "https://gentle-dune-050b92710.3.azurestaticapps.net/",
+            demo: 'https://quizmaster-testing-ee900.firebaseapp.com/',
+            code: "https://github.com/QuizMasterInc/QuizMaster",
             name: "Quiz Master"
         },
         {
             id:2,
             src: arrayDestruct,
             demo: 'https://gentle-dune-050b92710.3.azurestaticapps.net/',
-            code: 'https://gentle-dune-050b92710.3.azurestaticapps.net/',
-            name: "MDO-Fitness"
+            code: 'https://github.com/JoseMDO/soccer-app',
+            name: "Soccer Standings"
         },
         {
             id:3,
