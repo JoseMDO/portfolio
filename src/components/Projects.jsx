@@ -1,7 +1,7 @@
 import React from 'react'
 import quizMaster from '../assets/portfolio/quiz-3.png'
 import arrayDestruct from '../assets/portfolio/soccer-standing-2.jpg'
-import mapMania from '../assets/portfolio/maps.avif'
+import mapMania from '../assets/portfolio/map-mania-2.jpg'
 
 const Portfolio = () => {
 
